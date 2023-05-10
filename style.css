@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6790d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+}
+
+.container .title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form {
+    background-color: rgb(241, 223, 223);
+}
+
+.form .info {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.form .info input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.info select {
+    width: 100%;
+    padding: 8px;
+}
+
+.form .info-check {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.info textarea {
+    width: 100%;
+}
+
+.submit input {
+    background-color: #f2cb9e;
+}
+
+.submit input:hover {
+    background-color: #f2cb9e;
+    cursor: pointer;
+}
